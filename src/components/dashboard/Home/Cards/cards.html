@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de débito</title>
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="/src/components/styles/fonts/fonts.css">
+    <link rel="stylesheet" href="/src/components/styles/header-dashboard.css">
+    <link rel="stylesheet" href="/src/components/styles/navbar.css">
+</head>
+<body>
+<header>
+    <img src="/src/assets/icons/flechaBack-Blanca.svg" alt="Volver">
+    <h4>Tarjetas</h4>
+</header>
+
+<main>
+    <div class="card-buttons-container">
+        <div class="tab-button-indicator" style="width: 50%; left: 0;"></div>
+        <button class="tab-button active" data-tab="debito">Débito</button>
+        <button class="tab-button" data-tab="credito">Crédito</button>
+    </div>
+
+    <div class="card-slider">
+        <div class="card" id="debitoCard">
+            <div class="card-header">
+                <div class="card-logos">
+                    <img src="/src/assets/icons/Mastercard.svg" alt="Mastercard">
+                    <img src="/src/assets/logos/Logo-Blanco.svg" alt="Logo Cuenta" id="logo">
+                    <span>Tarjeta Virtual</span>
+                </div>
+            </div>
+            <div class="card-details">
+                <div class="card-number-container">
+                    <div class="card-number">
+                        <span>Número de tarjeta</span>
+                        <span id="card-number">5101 2511 8857 9938</span>
+                    </div>
+                    <button id="card-number-btn">Copiar</button>
+                </div>
+                <div class="card-details-bottom">
+                    <div class="information">
+                        <div class="card-expiry-details">
+                            <span>Vencimiento</span>
+                            <span>03/25</span>
+                        </div>
+                        <div class="card-expiry-details">
+                            <span>CVV</span>
+                            <span>122</span>
+                        </div>
+                    </div>
+                    <button id ="action-copy-btn">Ver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-actions-container">
+        <div class="action-item">
+            <img src="/src/assets/icons/contraseña.svg" alt="NIP">
+            <span>NIP</span>
+        </div>
+        <div class="action-item">
+            <img src="/src/assets/icons/apagado.svg" alt="Apagar">
+            <span>Apagar</span>
+        </div>
+        <div class="action-item">
+            <img src="/src/assets/icons/ingresar-wallet.svg" alt="Ingresar">
+            <span>Ingresar</span>
+        </div>
+        <div class="action-item">
+            <img src="/src/assets/icons/configuracion.svg" alt="Configurar">
+            <span>Configurar</span>
+        </div>
+    </div>
+
+    <div class="card-options-container">
+        <div class="option-item">
+            <img src="/src/assets/icons/tarjetas.svg" alt="Tarjeta Virtual">
+            <div class="option-text">
+                <h3>Tarjeta Virtual</h3>
+                <p>Crear nueva tarjeta virtual</p>
+            </div>
+        </div>
+        <div class="option-item">
+            <img src="/src/assets/icons/tarjetas.svg" alt="Tarjeta Temporal">
+            <div class="option-text">
+                <h3>Tarjeta Temporal</h3>
+                <p>Crear nueva tarjeta temporal</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<nav class="navbar">
+    <a href="#" class="nav-item" data-path="/dashboard/benefits">
+        <div class="icon-container">
+            <img src="/src/assets/icons/cupon.svg" alt="Cupón" width="24" height="24">
+        </div>
+        <span class="label">Cupón</span>
+    </a>
+    <a href="#" class="nav-item" data-path="/dashboard/recent-activity">
+        <div class="icon-container">
+            <img src="/src/assets/icons/actividad-reciente.svg" alt="Actividad" width="24" height="24">
+        </div>
+        <span class="label">Actividad</span>
+    </a>
+    <a href="#" class="nav-item active" data-path="/dashboard/home">
+        <div class="icon-container">
+            <img src="/src/assets/icons/home.svg" alt="Home" width="24" height="24">
+        </div>
+        <span class="label">Inicio</span>
+    </a>
+    <a href="#" class="nav-item" data-path="/dashboard/code-scan">
+        <div class="icon-container">
+            <img src="/src/assets/icons/qr.svg" alt="QR" width="24" height="24">
+        </div>
+        <span class="label">QR</span>
+    </a>
+    <a href="#" class="nav-item" data-path="/dashboard/profile">
+        <div class="icon-container">
+            <img src="/src/assets/icons/user.svg" alt="Usuario" width="24" height="24">
+        </div>
+        <span class="label">Perfil</span>
+    </a>
+</nav>
+
+<script src="cards.js"></script>
+<script src="/src/scripts/navbar.js"></script>
+</body>
+</html>

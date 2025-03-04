@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1008" width="682.66669" height="682.66669" viewBox="0 0 682.66669 682.66669">
+  <defs id="defs1012">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1074">
+      <path d="M 0,512 H 512 V 0 H 0 Z" id="path1072"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1086">
+      <path d="M 0,512 H 512 V 0 H 0 Z" id="path1084"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1098">
+      <path d="M 0,512 H 512 V 0 H 0 Z" id="path1096"/>
+    </clipPath>
+  </defs>
+  <mask id="custom"><rect id="bg" x="0" y="0" width="100%" height="100%" fill="white"/><g transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"><path d="m 216,412 h 40 v 40 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1016"/><path d="m 216,160 h 40 v 57 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1018"/><path transform="matrix(1,0,0,1,255.9996,80.0001)" d="m 0,0 v -80 h 40 40 v 39.999 H 40 V 0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1022"/><path d="M 416,297 H 296 v -40 h 120 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1024"/><path d="m 416,217 h 56 v 40 h -56 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1026"/><path transform="matrix(1,0,0,1,471.9996,216.9999)" d="M 0,0 V -57 H -56 V -97 H 0 40 V 0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1030"/><path d="m 256,452 h 40 v 60 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1032"/><path transform="matrix(1,0,0,1,256,332)" d="M 0,0 H 40 V 80 H 0 V 40 H -40 V -75 H 0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1036"/><path transform="matrix(1,0,0,1,60.0003,297)" d="m 0,0 h -60 v -40 -40 h 39.999 v 40 H 0 40 V 0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1040"/><path d="m 296,257 h -40 v -40 h 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1042"/><path d="m 376,177 h 40 v 40 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1044"/><path d="m 472,257 h 40 v 40 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1046"/><path transform="matrix(1,0,0,1,336,217)" d="M 0,0 H -40 V -57 H -80 V -97 H 0 v 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1050"/><path d="m 216,80 h 40 v 40 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1052"/><path transform="matrix(1,0,0,1,336,120)" d="M 0,0 V -40 H 40 80 V 0 H 40 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1056"/><path d="M 456,80 H 416 V 40 h 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1058"/><path d="m 456,0 h 56 v 40 h -56 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1060"/><path d="m 376,0 h 40 v 40 h -40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1062"/><path transform="matrix(1,0,0,1,180,257)" d="M 0,0 V 40 H -40 V 0 H -80 V -40 H -18 0 36 V 0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1066"/><path d="M 110,402 H 70 v 40 h 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1078"/><path d="m 442,402 h -40 v 40 h 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1090"/><path d="M 110,70 H 70 v 40 h 40 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1102"/></g></mask><g mask="url(#custom)"><g id="g1014" transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)">
+    <path d="m 216,412 h 40 v 40 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1016"/>
+    <path d="m 216,160 h 40 v 57 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1018"/>
+    <g id="g1020" transform="translate(255.9996,80.0001)">
+      <path d="m 0,0 v -80 h 40 40 v 39.999 H 40 V 0 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1022"/>
+    </g>
+    <path d="M 416,297 H 296 v -40 h 120 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1024"/>
+    <path d="m 416,217 h 56 v 40 h -56 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1026"/>
+    <g id="g1028" transform="translate(471.9996,216.9999)">
+      <path d="M 0,0 V -57 H -56 V -97 H 0 40 V 0 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1030"/>
+    </g>
+    <path d="m 256,452 h 40 v 60 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1032"/>
+    <g id="g1034" transform="translate(256,332)">
+      <path d="M 0,0 H 40 V 80 H 0 V 40 H -40 V -75 H 0 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1036"/>
+    </g>
+    <g id="g1038" transform="translate(60.0003,297)">
+      <path d="m 0,0 h -60 v -40 -40 h 39.999 v 40 H 0 40 V 0 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1040"/>
+    </g>
+    <path d="m 296,257 h -40 v -40 h 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1042"/>
+    <path d="m 376,177 h 40 v 40 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1044"/>
+    <path d="m 472,257 h 40 v 40 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1046"/>
+    <g id="g1048" transform="translate(336,217)">
+      <path d="M 0,0 H -40 V -57 H -80 V -97 H 0 v 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1050"/>
+    </g>
+    <path d="m 216,80 h 40 v 40 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1052"/>
+    <g id="g1054" transform="translate(336,120)">
+      <path d="M 0,0 V -40 H 40 80 V 0 H 40 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1056"/>
+    </g>
+    <path d="M 456,80 H 416 V 40 h 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1058"/>
+    <path d="m 456,0 h 56 v 40 h -56 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1060"/>
+    <path d="m 376,0 h 40 v 40 h -40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1062"/>
+    <g id="g1064" transform="translate(180,257)">
+      <path d="M 0,0 V 40 H -40 V 0 H -80 V -40 H -18 0 36 V 0 Z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1066"/>
+    </g>
+    <g id="g1068">
+      <g id="g1070" clip-path="url(#clipPath1074)">
+        <path d="M 160,352 H 20 v 140 h 140 z" style="fill:none;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path1076"/>
+      </g>
+    </g>
+    <path d="M 110,402 H 70 v 40 h 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1078"/>
+    <g id="g1080">
+      <g id="g1082" clip-path="url(#clipPath1086)">
+        <path d="M 492,352 H 352 v 140 h 140 z" style="fill:none;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path1088"/>
+      </g>
+    </g>
+    <path d="m 442,402 h -40 v 40 h 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1090"/>
+    <g id="g1092">
+      <g id="g1094" clip-path="url(#clipPath1098)">
+        <path d="M 160,20 H 20 v 140 h 140 z" style="fill:none;stroke:#000000;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path1100"/>
+      </g>
+    </g>
+    <path d="M 110,70 H 70 v 40 h 40 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path1102"/>
+  </g></g>
+</svg>

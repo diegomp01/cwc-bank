@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1F1F1;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.datosContacto-container {
+    background: white;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px 24px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: normal;
+    padding: 0 5px;
+    line-height: 1.4;
+}
+
+.emailPs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.icon-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 3px;
+    font-weight: normal;
+}
+
+.info-container input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    color: #333;
+    padding: 3px 0;
+}
+
+.info-container input::placeholder {
+    color: #aaa;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background: #00B3D5;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 20px 0 5px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:hover, button:active {
+    background: #009dbd;
+}
+
+/* Media queries específicas para dispositivos móviles */
+@media (max-width: 375px) {
+    .datosContacto-container {
+        padding: 25px 20px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .emailPs-container {
+        padding: 10px;
+    }
+
+    .icon-container {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+    .datosContacto-container {
+        max-width: 340px;
+        margin-top: 20px;
+    }
+}
+
+/* Ajuste para pantallas muy pequeñas */
+@media (max-width: 320px) {
+    .datosContacto-container {
+        padding: 20px 15px;
+    }
+
+    .icon-container {
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+    }
+}
+
+/* Ajuste para dispositivos iOS */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select, textarea, input {
+        font-size: 16px;
+    }
+}
+
+/* Hack para evitar que el teclado virtual cause problemas de layout */
+@supports (-webkit-touch-callout: none) {
+    .datosContacto-container {
+        padding-bottom: 30px;
+    }
+}
+
+/* Ajuste de altura máxima para ventanas pequeñas */
+@media (max-height: 700px) {
+    main {
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .datosContacto-container {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --primary-color: #378fb2;
+    --background-color: #F1F1F1;
+    --card-background: #0072B1;
+    --text-color: #333333;
+    --white: #FFFFFF;
+    --light-gray: #ffffff;
+    --medium-gray: #E0E0E0;
+    --dark-gray: #888888;
+    --border-radius-sm: 8px;
+    --border-radius-md: 15px;
+    --border-radius-lg: 20px;
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+}
+
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px; /* Espacio para el navbar */
+}
+
+
+
+.user-container {
+    display: flex;
+    align-items: center;
+}
+
+#user-profile {
+    width: 35px;
+    height: 35px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+    padding-bottom: 80px;
+}
+
+/* Contenedor de cuenta */
+.account-container {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.saldo-header {
+    margin-bottom: var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.saldo-disponible {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+}
+
+.see {
+    margin-left: 10px;
+}
+
+.saldo-disponible h2 {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.saldo-disponible sup {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+.saldo-disponible img {
+    width: 20px;
+    height: 20px;
+}
+
+.saldo-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saldo-info p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.arrow {
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.rendimiento {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rendimiento img {
+    width: 20px;
+    height: 20px;
+}
+
+.tasa-rendimiento {
+    background-color: #D8F3D8;
+    color: #008000;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.card-container {
+    margin-top: var(--spacing-md);
+}
+
+.card {
+    background: linear-gradient(to top, #000000, #00A4D2);
+    border-radius: var(--border-radius-lg);
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    height: 100%;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    margin: 18px;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 10px;
+    background: rgba(118, 181, 204, 0.5); /* Fondo blanco semi-transparente */
+    backdrop-filter: blur(30px); /* Filtro de desenfoque */
+    -webkit-backdrop-filter: blur(15px); /* Compatibilidad con Safari */
+}
+
+.card-labels {
+    display: flex;
+    gap: 10px;
+}
+
+.card-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-label img {
+    width: 25px;
+    height: auto;
+    margin-bottom: 4px;
+}
+
+.card-label span {
+    font-size: 10px;
+}
+
+.card-details {
+    font-size: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.contactless {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+        width: 20px;
+        height: 20px;
+    } p {
+          font-size: 10px;
+          text-align: center;
+          margin-top: 10px;
+      }
+}
+
+/* Panel de opciones principales */
+.panel-opciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    gap: var(--spacing-md);
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-opcion {
+    background-color: var(--light-gray);
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing-xs);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.09);
+
+}
+
+.icono-opcion img {
+    width: 30px;
+    height: 30px;
+}
+
+.opcion p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: var(--text-color);
+}
+
+/* Contenedor de créditos */
+.creditos-container {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+}
+
+.credito-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.credito-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.credito-header h3 {
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: normal;
+}
+
+.creditos-container p {
+    font-size: 10px;
+    color: var(--text-color);
+    font-weight: normal;
+}
+
+/* Grid de opciones */
+.opciones-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--spacing-md);
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+}
+
+.opcion-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-grid {
+    background-color: var(--light-gray);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing-xs);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.09);
+}
+
+.icono-grid img {
+    width: 24px;
+    height: 24px;
+}
+
+.opcion-grid p {
+    font-size: 11px;
+    color: var(--text-color);
+}
+
+/* Contenedor de criptomonedas */
+.cripto-container {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+}
+
+.cripto-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.cripto-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.cripto-header h3 {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.cripto-saldo h2 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cripto-saldo sup {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+/* Carrusel */
+.carousel-container {
+    position: relative;
+    margin-top: var(--spacing-md);
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--border-radius-md);
+}
+
+.carousel-item {
+    display: none;
+    width: 100%;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-sm);
+    gap: 8px;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    background-color: var(--medium-gray);
+    border-radius: 50%;
+}
+
+.indicator.active {
+    background-color: var(--primary-color);
+}
+
+/* Navegación */
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.nav-item.active {
+    color: var(--primary-color);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 360px) {
+    .panel-opciones, .opciones-grid {
+        padding: var(--spacing-md);
+    }
+
+    .icono-grid {
+        width: 40px;
+        height: 40px;
+    }
+
+    .opcion-grid p, .opcion p {
+        font-size: 10px;
+    }
+}
+
+/* Estilos para dispositivos medianos */
+@media (min-width: 361px) and (max-width: 420px) {
+    .icono-grid {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.account-balance1{
+    display: flex;
+    align-items: center;
+}
+
+#logocwc {
+    height: 18.1px;
+    width: 18.1px;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Usuario</title>
+  <link rel="stylesheet" href="/src/components/styles/fonts/fonts.css">
+  <link rel="stylesheet" href="/src/components/styles/navbar.css">
+  <link rel="stylesheet" href="/src/components/styles/header.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+  <div class="user-container">
+    <div id="user-profile">D</div>
+    <h3>Diego Moo</h3>
+  </div>
+
+  <div class="header-icons">
+    <img src="/src/assets/icons/notificaciones.svg" alt="Notificaciones">
+    <img src="/src/assets/icons/tema-claro.svg" alt="Tema Claro">
+    <img src="/src/assets/icons/tema-oscuro.svg" alt="Tema Oscuro" class="hidden">
+    <img src="/src/assets/icons/ayuda.svg" alt="Ayuda">
+  </div>
+</header>
+
+<main>
+  <div class="account-container">
+    <div class="saldo-header">
+      <div class="saldo-disponible">
+        <div class="account-balance1">
+          <h2>$<span>00</span><sup>00</sup></h2>
+          <img src="/src/assets/icons/ojo.svg" alt="Mostrar/Ocultar saldo">
+        </div>
+        <p>Disponible <span class="arrow">›</span></p>
+      </div>
+      <div class="saldo-info">
+        <div class="rendimiento">
+          <img src="/src/assets/icons/Grafica.svg" alt="Gráfica">
+          <span class="tasa-rendimiento">20% anual</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-left">
+            <div class="card-labels">
+              <div class="card-label debito">
+                <img src="/src/assets/icons/Mastercard.svg" alt="Mastercard">
+                <span>Débito</span>
+              </div>
+              <div class="card-label cuenta">
+                <img src="/src/assets/logos/Logo-Blanco.svg" alt="Logo Cuenta" id="logocwc">
+                <span>Cuenta</span>
+              </div>
+            </div>
+            <div class="card-details">
+              <span>Tarjeta de Débito MasterCard <span class="arrow">›</span></span>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="contactless">
+              <img src="/src/assets/icons/icon-nfc2.svg" alt="Contactless">
+              <p>Contact Less</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-opciones">
+    <div class="opcion">
+      <div class="icono-opcion">
+        <img src="/src/assets/icons/ingresar-dinero2.svg" alt="Ingresar">
+      </div>
+      <p>Ingresar</p>
+    </div>
+    <div class="opcion">
+      <div class="icono-opcion">
+        <img src="/src/assets/icons/transferencia.svg" alt="Transferir">
+      </div>
+      <p>Transferir</p>
+    </div>
+    <div class="opcion">
+      <div class="icono-opcion">
+        <img src="/src/assets/icons/retirar-dinero3.svg" alt="Retirar">
+      </div>
+      <p>Retirar</p>
+    </div>
+    <div class="opcion">
+      <div class="icono-opcion">
+        <img src="/src/assets/icons/clabe.svg" alt="CLABE">
+      </div>
+      <p>CLABE</p>
+    </div>
+  </div>
+
+  <div class="creditos-container">
+    <div class="credito-header">
+      <img src="/src/assets/icons/credit.svg" alt="Créditos">
+      <h3>Créditos</h3>
+    </div>
+    <p>Tu línea de crédito está preaprobada, continúa con el trámite y accede a beneficios exclusivos por ser cliente. ¡Solicitarla solo toma 10 minutos!</p>
+  </div>
+
+  <div class="opciones-grid">
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/datos.svg" alt="Tiempo Aire">
+      </div>
+      <p>Tiempo Aire</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/servicios.svg" alt="Servicios">
+      </div>
+      <p>Servicios</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/transporte.svg" alt="Transporte">
+      </div>
+      <p>Transporte</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/beneficios.svg" alt="Beneficios">
+      </div>
+      <p>Beneficios</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/seguros.svg" alt="Seguros">
+      </div>
+      <p>Seguros</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/grafica-circular.svg" alt="Estadísticas">
+      </div>
+      <p>Estadísticas</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/billetera2.svg" alt="Billetera">
+      </div>
+      <p>Billetera</p>
+    </div>
+    <div class="opcion-grid">
+      <div class="icono-grid">
+        <img src="/src/assets/icons/alcancía.svg" alt="Apartados">
+      </div>
+      <p>Apartados</p>
+    </div>
+  </div>
+
+  <div class="cripto-container">
+    <div class="cripto-header">
+      <img src="/src/assets/icons/cripto.svg" alt="Criptomonedas">
+      <h3>Criptomonedas</h3>
+    </div>
+    <div class="cripto-saldo">
+      <h2>$<span>00</span><sup>00</sup></h2>
+    </div>
+  </div>
+
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-item active">
+        <img src="/src/assets/png/estadisticas-celular.png" alt="Estadísticas">
+      </div>
+      <div class="carousel-item">
+        <img src="/src/assets/png/imagen-persona.png" alt="Persona">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <span class="indicator active"></span>
+      <span class="indicator"></span>
+    </div>
+  </div>
+</main>
+
+<nav class="navbar">
+  <a href="#" class="nav-item" data-path="/dashboard/benefits">
+    <div class="icon-container">
+      <img src="/src/assets/icons/cupon.svg" alt="Cupón" width="24" height="24">
+    </div>
+    <span class="label">Cupón</span>
+  </a>
+  <a href="#" class="nav-item" data-path="/dashboard/recent-activity">
+    <div class="icon-container">
+      <img src="/src/assets/icons/actividad-reciente.svg" alt="Actividad" width="24" height="24">
+    </div>
+    <span class="label">Actividad</span>
+  </a>
+  <a href="#" class="nav-item active" data-path="/dashboard/home">
+    <div class="icon-container">
+      <img src="/src/assets/icons/home.svg" alt="Home" width="24" height="24">
+    </div>
+    <span class="label">Inicio</span>
+  </a>
+  <a href="#" class="nav-item" data-path="/dashboard/code-scan">
+    <div class="icon-container">
+      <img src="/src/assets/icons/qr.svg" alt="QR" width="24" height="24">
+    </div>
+    <span class="label">QR</span>
+  </a>
+  <a href="#" class="nav-item" data-path="/dashboard/profile">
+    <div class="icon-container">
+      <img src="/src/assets/icons/user.svg" alt="Usuario" width="24" height="24">
+    </div>
+    <span class="label">Perfil</span>
+  </a>
+</nav>
+
+<script src="index.js"></script>
+<script src="/src/scripts/navbar.js"></script>
+</body>
+</html>

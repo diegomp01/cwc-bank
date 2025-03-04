@@ -1,0 +1,19 @@
+header {
+    background-color: #378fb2;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header img {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-left: 15px ;
+    margin-top: 15px;
+} h4 {
+    font-weight: normal;
+    margin-top: 15px;
+  }

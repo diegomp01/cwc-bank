@@ -1,0 +1,23 @@
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo-container img {
+    height: 25px;
+    width: auto;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
